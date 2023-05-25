@@ -1,0 +1,23 @@
+.navbarContainer {
+  @apply w-[100vw];
+}
+.navbar {
+  @apply text-black mx-auto flex items-center justify-around font-sans font-bold text-sm;
+}
+.navoptions {
+  @apply flex flex-row;
+}
+.navoption {
+  transition: all 0.3s;
+  @apply p-5 sm:px-[2rem] cursor-pointer;
+  @apply hover:bg-hover-color hover:underline 
+  hover:text-white;
+}
+.brand {
+  @apply cursor-pointer text-xl;
+}
+@media screen and (max-width: 550px) {
+  .navbarContainer {
+    display: none;
+  }
+}
