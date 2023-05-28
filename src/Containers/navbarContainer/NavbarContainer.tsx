@@ -34,13 +34,16 @@ function navbarContainer() {
         <MobileNavbar event={handleSidebar} />
       </div>
       {width! < 550 && (
+        <div className={style.hamburger_logo}>
+        <span className={style.brand}>PORTF<span style={{color:"#B88B05"}}>O</span>LIO</span>
         <div className={style.hamburger}>
           <FontAwesomeIcon
             icon={faBars}
             size="2xl"
-            style={{ color: "#EB5055" }}
+            className={style.hamburgerIcon}
             onClick={handleSidebar}
           />
+        </div>
         </div>
       )}
     </div>

@@ -40,7 +40,6 @@ function MobileNavbar(props: Propstype) {
           <FontAwesomeIcon
             className={style.closeSliderIcon}
             icon={faAngleLeft}
-            color={"white"}
             onClick={closeSideBar}
           />
         </div>

@@ -5,7 +5,7 @@ function DesktopNavbar() {
     <>
       <div className={style.navbarContainer}>
         <div className={style.navbar}>
-          <span className={style.brand}>PORTFOLIO</span>
+          <span className={style.brand}>PORTF<span style={{color:"#B88B05"}}>O</span>LIO</span>
           <ul className={style.navoptions}>
             <li className={style.navoption}>
               <a href="#homeSection">HOME</a>

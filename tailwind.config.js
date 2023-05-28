@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "hover-color": "#EB5055",
-        "navbar-border": "#BDC3C7",
+        "primary": "#010101",
+        "secondary": "#B88B05",
       },
     },
   },

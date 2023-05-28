@@ -4,13 +4,13 @@
 }
 .mobileNavbar {
   position: relative;
-  @apply bg-hover-color h-[100vh] w-[65vw] min-w-[200px]  flex flex-col py-20 items-center space-y-10;
+  @apply bg-white h-[100vh] w-[65vw] min-w-[200px]  flex flex-col py-20 items-center space-y-10;
 }
 .logo_title {
   @apply space-y-10 text-center cursor-pointer text-4xl flex flex-col justify-center items-center font-bold;
 }
 .logo_img {
-  @apply w-24 h-24;
+  @apply w-24 h-24 rounded-full;
 }
 .logo {
   @apply text-center;
@@ -19,18 +19,18 @@
   @apply text-lg font-sans text-black;
 }
 .navoptions {
-  @apply flex flex-col space-y-10 w-32 text-white;
+  @apply flex flex-col space-y-10 w-32 text-black;
 }
 .navoption {
   position: relative;
   transition: all 1s;
-  @apply min-w-full border-b-2 border-white text-center
-    cursor-pointer hover:text-black;
+  @apply min-w-full border-b-2 border-black text-center
+    cursor-pointer hover:text-primary;
 }
 
 .navoption_hover {
   position: absolute;
-  background-color: white;
+  @apply bg-secondary;
   height: 0%;
   width: 100%;
   top: 100%;
@@ -57,6 +57,10 @@
   cursor: pointer;
   width: 30px;
   height: 30px;
+  color: black;
+}
+.closeSliderIcon:hover{
+  color:"#B88B05";
 }
 @media screen and (min-width: 550px) {
   .mobileNavbarContainer {
