@@ -1,6 +1,6 @@
 import "./App.css";
 import HomeContainer from "./Containers/HomeContainer/HomeContainer";
-import ProductContainer from "./Containers/ProuductContainer/ProductContainer";
+import ProductContainer from "../src/Containers/ProductContainer/ProductContainer";
 import NavbarContainer from "./Containers/navbarContainer/NavbarContainer";
 function App() {
   return (
